@@ -1,70 +1,70 @@
 ---
 #Chinese (Simplified)
 #main
-web_TypeError: Oops - Web interface is configured to bind to an invalid address。
-web_KeyError: Oops - Web interface configuration is mising in the config file。
-PhoneNumberInvalidError: Oops ~ The phone number entered is invalid. Please make sure to append country code.
-module: モジュール管理
-error: loading error
-start: PagerMaid-Pyro have started, type ,help in any chat for help message.
+web_TypeError: おっと - Webインターフェースは無効なアドレスにバインドするように設定されています。
+web_KeyError: おっと - Web インターフェイスの設定が設定ファイルで間違っています。
+PhoneNumberInvalidError: おっと~入力された電話番号が無効です。国コードを追加してください。
+module: モジュール管理
+error: 読み込みエラー
+start: PagerMaid-Pyro が開始しました。ヘルプメッセージについては、任意のチャットで ,help を入力してください。
 #utils
-msg_ValueError: Oops ~ No messages were successfully obtained!
-isinstance: Oops ~ Length must be an integer!
+msg_ValueError: おっと~正常にメッセージを取得できませんでした!
+isinstance: おっと~長さは整数でなければなりません！
 #init
-platform: Detected latform
-platform_load: 'proceeding to early process of PagerMaid。'
-platform_unsupported: not support, please start PagerMaid Linux or *BSD.
-error_prefix: Oops -
-python: Please upgrade your python interpreter to at least version 3.6。
-config_error: Oops - Please place a valid configuration file in the working directory。
-save_id: The user ID is get successfully.
+platform: 検出されたlatform
+platform_load: 'PagerMaidの早期プロセスに進みます。'
+platform_unsupported: サポートされていません。PagerMaid Linux または *BSD を起動してください。
+error_prefix: おっと -
+python: pythonインタプリタを少なくともバージョン3.6にアップグレードしてください。
+config_error: おっと - 有効な設定ファイルを作業ディレクトリに配置してください。
+save_id: ユーザー ID の取得に成功しました。
 #modules_init
-modules_init_loading_modules: Load built-in modulesの
-modules_init_loading_plugins: Load plugin
+modules_init_loading_modules: 組み込みモジュールをロードする
+modules_init_loading_plugins: プラグインを読み込む
 #listener
-command: command
-has_reg: このアルready registered.
-too_long: Oops - The output generated too long and could not be presented.
-run_error: Oops - An error occurd while executing this command.
-report_error: Oops - report error。
-use_method: Usage
-need_permission: Required Permission
+command: (Command)
+has_reg: <unk> <unk> <unk> <unk> <unk> ready registered.
+too_long: Oops - 生成された出力が長すぎて表示できませんでした。
+run_error: Oops - このコマンドの実行中にエラーが発生します。
+report_error: おっと、レポートエラーです。
+use_method: 使用法
+need_permission: 必要な権限
 #account
 ## username
-username_des: usernameがセットされました。
-arg_error: Invalid argument.
-username_exist: Username is Taken.
-username_vaild: Invalid username.
-username_set: Username have been updated.
-username_cancel: Username has been unset.
-username_whatset: Username has been セット
+username_des: usernameがセットされました。
+arg_error: 引数が無効です。
+username_exist: ユーザー名が使用されています。
+username_vaild: 無効なユーザー名です。
+username_set: ユーザー名を更新しました。
+username_cancel: ユーザー名を解除しました。
+username_whatset: ユーザー名は<unk> <unk>
 ## name
-name_des: Alters the display name.
-name_vaild: Invalid first name.
-name_set: Displayname is successfully altered.
-name_whatset: Changed display name to
+name_des: 表示名を変更します。
+name_vaild: 無効な名です。
+name_set: 表示名を変更しました。
+name_whatset: 表示名を変更：
 ## pfp
-pfp_des: Set attachment of message replied to profile picture.
-pfp_process: Setting profile picture .
-pfp_e_notp: '"unable to parse attachment image"'
-pfp_e_size: The image dimensions are smaller than minimum requirement.
-pfp_e_img: An error occurd while the server is interpreting the command。
+pfp_des: プロフィール画像に返信したメッセージの添付ファイルを設定します。
+pfp_process: プロフィール画像の設定 .
+pfp_e_notp: '"添付画像を解析できません"'
+pfp_e_size: 画像のサイズは、最小要件より小さいです。
+pfp_e_img: サーバーがコマンドを解釈中にエラーが発生します。
 ## bio
-bio_des: Sets the biography to the string in the parameter。
-bio_too_lang: Provided string is too long.
-bio_set: Bio has been altered successfully.
-bio_cancel: ビオハット・ベティ・unset.
-bio_whatset: ビオハス・ベレンset to
+bio_des: 伝記をパラメータの文字列に設定します。
+bio_too_lang: 指定された文字列が長すぎます。
+bio_set: バイオは正常に変更されました。
+bio_cancel: ビオハット・ベティ・unset.
+bio_whatset: ビオハス・ベレンset to
 ## rmpfp
-rmpfp_des: Deletes defined amount of profile pictures。
+rmpfp_des: プロファイル画像の定義された量を削除します。
 int: integer
-rmpfp_p: Removed
-rmpfp_l: profile pictures。
+rmpfp_p: 削除しました
+rmpfp_l: プロフィール写真
 ## profile
-profile_des: Shows user profile in a large message。
-profile_process: Generating user profile summary 。
-profile_e_no: The specified user does not exist。
-profile_e_nou: ユーザー名 specified does not exist。
+profile_des: ユーザープロファイルを大きなメッセージで表示します。
+profile_process: ユーザープロファイルの概要を生成します。
+profile_e_no: 指定されたユーザーは存在しません。
+profile_e_nou: <unk> <unk> <unk> <unk> <unk> <unk> 指定されたものは存在しません。
 profile_e_nof: ユーザーID specified does not correspond to a user.
 profile_e_long: UserID specified have exceeded integer limit。
 profile_user: ユーザー
